@@ -1,0 +1,16 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "mockserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mock": "puer --no-launch -r proxy.config.js"
+  },
+  "author": "alvin",
+  "license": "MIT",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "puer": "^2.0.1"
+  }
+}
