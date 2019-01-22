@@ -34,10 +34,12 @@ class _MyState extends State<My> {
               child: Center(
                 child: Column(
                   children: <Widget>[
-                    Image.asset(
-                      "assets/face.jpg",
-                      width: 200,
-                      height: 200,
+                    ClipOval(
+                      child: Image.asset(
+                        "assets/face.jpg",
+                        width: 200,
+                        height: 200,
+                      ),
                     ),
                     SizedBox(
                       height: 40,
@@ -45,80 +47,92 @@ class _MyState extends State<My> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                          Row(
-                            children: <Widget>[
-                              SizedBox(
-                                width: 10,
-                              ),
-                              Icon(
-                                Icons.settings,
-                                size: 40,
-                              ),
-                              SizedBox(
-                                width: 5,
-                              ),
-                              Text(
-                                "设置一下",
-                                style: TextStyle(fontSize: 20),
-                              )
-                            ],
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Row(
+                              children: <Widget>[
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                Icon(
+                                  Icons.settings,
+                                  size: 30,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Text(
+                                  "设置一下",
+                                  style: TextStyle(fontSize: 20),
+                                )
+                              ],
+                            ),
                           ),
                           Divider(),
-                          Row(
-                            children: <Widget>[
-                              SizedBox(
-                                width: 10,
-                              ),
-                              Icon(
-                                Icons.settings,
-                                size: 40,
-                              ),
-                              SizedBox(
-                                width: 5,
-                              ),
-                              Text(
-                                "设置一下",
-                                style: TextStyle(fontSize: 20),
-                              )
-                            ],
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Row(
+                              children: <Widget>[
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                Icon(
+                                  Icons.settings,
+                                  size: 30,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Text(
+                                  "设置一下",
+                                  style: TextStyle(fontSize: 20),
+                                )
+                              ],
+                            ),
                           ),
                           Divider(),
-                          Row(
-                            children: <Widget>[
-                              SizedBox(
-                                width: 10,
-                              ),
-                              Icon(
-                                Icons.settings,
-                                size: 40,
-                              ),
-                              SizedBox(
-                                width: 5,
-                              ),
-                              Text(
-                                "设置一下",
-                                style: TextStyle(fontSize: 20),
-                              )
-                            ],
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Row(
+                              children: <Widget>[
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                Icon(
+                                  Icons.settings,
+                                  size: 30,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Text(
+                                  "设置一下",
+                                  style: TextStyle(fontSize: 20),
+                                )
+                              ],
+                            ),
                           ),
                           Divider(),
-                          Row(
-                            children: <Widget>[
-                              SizedBox(
-                                width: 10,
-                              ),
-                              Icon(
-                                Icons.settings,
-                                size: 40,
-                              ),
-                              SizedBox(
-                                width: 5,
-                              ),
-                              Text(
-                                "设置一下",
-                                style: TextStyle(fontSize: 20),
-                              )
-                            ],
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Row(
+                              children: <Widget>[
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                Icon(
+                                  Icons.settings,
+                                  size: 30,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Text(
+                                  "设置一下",
+                                  style: TextStyle(fontSize: 20),
+                                )
+                              ],
+                            ),
                           ),
                         ],
                       ),

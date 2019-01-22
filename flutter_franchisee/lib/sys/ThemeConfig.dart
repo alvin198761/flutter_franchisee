@@ -5,6 +5,7 @@ ThemeData getTheme(context) {
   return ThemeData(
     primaryColor: Colors.deepOrangeAccent,
     buttonColor: Colors.deepOrangeAccent,
+    backgroundColor: Colors.deepOrangeAccent,
 //    tabBarTheme: TabBarTheme(unselectedLabelColor: Colors.deepOrangeAccent),
     iconTheme: IconThemeData(color: Colors.deepOrangeAccent),
   );

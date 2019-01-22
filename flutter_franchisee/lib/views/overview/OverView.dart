@@ -33,51 +33,51 @@ class _OverViewState extends State<OverView> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         Card(
-                          child: SizedBox(
-                            height: 100,
-                            width: 120,
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: <Widget>[
-                                Icon(
-                                  Icons.phone,
-                                  size: 50,
-                                ),
-                                Text(
-                                  "我的代办",
-                                  style: TextStyle(
-                                      fontSize: 14, color: Colors.grey),
-                                ),
-                              ],
-                            ),
+                            child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 15, right: 15, top: 5, bottom: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: <Widget>[
+                              Icon(
+                                Icons.phone,
+                                size: 50,
+                              ),
+                              Text(
+                                "我的代办",
+                                style:
+                                    TextStyle(fontSize: 14, color: Colors.grey),
+                              ),
+                            ],
                           ),
-//                         ,
-                        ),
-                        Card(
-                          child: SizedBox(
-                            height: 100,
-                            width: 120,
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: <Widget>[
-                                Icon(
-                                  Icons.person,
-                                  size: 50,
-                                ),
-                                Text(
-                                  "我的客户",
-                                  style: TextStyle(
-                                      fontSize: 14, color: Colors.grey),
-                                ),
-                              ],
+                        )
+//                         ,)
                             ),
-                          ),
-//                         ,
-                        ),
                         Card(
-                          child: SizedBox(
-                            height: 100,
-                            width: 120,
+                            child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 15, right: 15, top: 5, bottom: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: <Widget>[
+                              Icon(
+                                Icons.person,
+                                size: 50,
+                              ),
+                              Text(
+                                "我的客户",
+                                style:
+                                    TextStyle(fontSize: 14, color: Colors.grey),
+                              ),
+                            ],
+                          ),
+                        )
+//                         ,
+                            ),
+                        Card(
+                          child: Padding(
+                            padding: EdgeInsets.only(
+                                left: 15, right: 15, top: 5, bottom: 5),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[

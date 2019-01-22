@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_franchisee/views/fran/Fran.dart';
+import 'package:flutter_franchisee/views/job_51/JobView.dart';
 import 'package:flutter_franchisee/views/my/My.dart';
 import 'package:flutter_franchisee/views/overview/OverView.dart';
 
@@ -14,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
-  final _tabPageViews = [OverView(), Fran(), My()];
+  final _tabPageViews = [OverView(), Fran(),JobView(), My()];
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +31,10 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
               icon: Icon(Icons.school),
               title: Text('加盟商'),
+              backgroundColor: Colors.black12),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.work),
+              title: Text('51Job'),
               backgroundColor: Colors.black12),
           BottomNavigationBarItem(
               icon: Icon(Icons.person ),
